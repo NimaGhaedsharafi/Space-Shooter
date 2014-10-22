@@ -1,13 +1,18 @@
 Termology :
-
-Gameengine
-
-
+Session1
+Game Engine
 __________________
-QUAD
-Empty GameObject
-Light
-Direcction Light 
+Session2:
+UnityPackage
+GameObject
+Scene
 Inspector Pane 
 Transform
-UnityPackage
+Origin
+Orthographic
+Perspective
+Directional Light 
+Intensity
+Empty GameObject
+Quad
+__________________

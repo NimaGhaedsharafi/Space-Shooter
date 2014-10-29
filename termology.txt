@@ -1,5 +1,5 @@
 Termology :
-Session1
+Session1:
 Game Engine
 __________________
 Session2:
@@ -16,3 +16,16 @@ Intensity
 Empty GameObject
 Quad
 __________________
+Session3:
+Rigidbody
+Collider
+__________________
+Session4:
+Position
+Velocity
+FixedUpdate
+Axis
+Vector3
+Console Pane
+Mathf
+Clamp

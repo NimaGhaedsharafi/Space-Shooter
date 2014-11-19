@@ -9,6 +9,11 @@ public class PlayerController : MonoBehaviour {
 	public float zMin;
 	public float zMax;
 
+	public GameObject shoot;
+	public Transform shootSpawn;
+	public float fireRate;
+	private float nextFire = 0.0f;
+
 	void FixedUpdate() {
 
 		// Get X 
@@ -56,5 +61,15 @@ public class PlayerController : MonoBehaviour {
 
 		this.rigidbody.position = pos;
 	}
+
+	void Update()
+	{
+		if (Input.GetButton ("Fire1") && Time.time > nextFire)
+		{
+			nextFire = Time.time + fireRate;
+			Instantiate (shoot, shootSpawn.position, shootSpawn.rotation);
+		}
+	}
+
 
 }
